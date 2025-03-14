@@ -10,6 +10,7 @@ chmod +x /usr/local/bin/monitor_test.sh
 Перезапустить и включить таймер
 
 systemctl daemon-reload
+
 systemctl enable --now monitor-test.timer
 
 Для проверки мониторинга можно запустить ./test &
